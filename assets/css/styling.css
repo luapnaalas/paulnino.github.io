@@ -1,0 +1,151 @@
+/*this style is for the paragraph*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    width: 100%;
+}
+p {
+    line-height: 45px;
+    font-size: 25px;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+header {
+        background: rgb(32, 32, 32);
+        padding: 20px;
+}
+.logo-container{
+    display: inline-block;
+    color: white;
+}
+.logo-container img{
+    width: 200px
+}
+.nav-container{
+    text-align: right;
+    padding-top: 75px;
+    float: right;
+}
+nav.header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 13px;
+    color: white;
+}
+.banner-section {
+    background: #fff url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.banner {
+    padding: 230px 200px 195px 200px;
+}
+h1 {
+    font-size: 75px;
+    color: #b1973a;
+    text-align: center;
+}
+
+/* about styles */
+section.about-section {
+    padding: 45px;
+}
+.about-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.about-left {
+    display: inline-block;
+    width: 10%;
+}
+.about-right {
+    width: 78%;
+    float: right;
+    text-align: justify;
+    font-size: 20px;
+}
+.about-left img {
+    border-radius: 100%;
+    width: 300px;
+    height: 350px;
+}
+section.about-section {
+    background-color: white;
+}
+section.projects-section .col {
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+section.projects-section h2 {
+    text-align: center;
+    color: white;
+}
+section.projects-section {
+    background: #b1973a;
+    padding: 40px;
+    text-align: center;
+}
+.about-right p {
+    font-size: 25px;
+}
+section.projects-section p {
+    line-height: 45px;
+    font-size: 25px;
+}
+span {
+    margin: 65px;
+    font-size: 45px;
+}
+button {
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+section.get-one-now {
+    text-align: center;
+    padding: 40px;
+    font-size: 35px;
+    background-color: #202020;
+}
+h3 {
+    color: white;
+    margin-bottom: 60px;
+}
+section.projects-section .row {
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+.picture-left {
+    padding: 40px;
+}
+h4 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+section.picture-section {
+    padding: 40px;
+    background-color: #b1973a;
+}
+h5 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
